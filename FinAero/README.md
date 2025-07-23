@@ -1,24 +1,30 @@
-# Full Stack AI Fianace Platform with Next JS, Supabase, Tailwind, Prisma, Inngest, ArcJet, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/egS6fnZAdzk
+# 🚀 FinAero – Your AI-powered Personal Finance Copilot
 
-<img width="1470" alt="Screenshot 2024-12-10 at 9 45 45 AM" src="https://github.com/user-attachments/assets/1bc50b85-b421-4122-8ba4-ae68b2b61432">
+FinAero is a full-stack AI finance platform that helps users manage their personal finances with intelligence, automation, and ease. From expense tracking to AI-driven insights, FinAero brings powerful features wrapped in a clean, fast, and modern UI.
 
-### Make sure to create a `.env` file with following variables -
+![FinAero Screenshot](https://your-screenshot-link.com)
 
-```
-DATABASE_URL=
-DIRECT_URL=
+---
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+## 🔧 Tech Stack
 
-GEMINI_API_KEY=
+- **Frontend**: Next.js 15 (Turbopack), Tailwind CSS, Shadcn UI
+- **Backend**: Supabase (PostgreSQL), Prisma ORM, Clerk for Auth
+- **AI Integration**: Gemini Pro API
+- **Email Services**: Resend
+- **Edge Security**: ArcJet
+- **Background Jobs**: Inngest
 
-RESEND_API_KEY=
+---
 
-ARCJET_KEY=
-```
+## 🧠 Key Features
+
+- ✨ **AI Assistant** to analyze spending patterns and generate finance tips  
+- 🔒 **Secure Auth** with Clerk (Sign-in, Sign-up, Onboarding flows)  
+- 📊 **Smart Dashboard** showing categorized expenses, budget goals, and charts  
+- 📨 **Email Notifications** for overspending alerts and finance summaries  
+- 🔁 **Scheduled Jobs** using Inngest for recurring tasks  
+- 🌐 **Scalable & Performant**: Optimized with Prisma, Supabase, and Next.js Turbopack  
+- 📱 **Mobile-Ready UI** with modern components and responsiveness  
+
+
